@@ -1,0 +1,57 @@
+body {
+  background-color: #fff0f5;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #ffe4e1;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+}
+
+.heart {
+  font-size: 60px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesBtn {
+  background-color: #ff69b4;
+  color: white;
+}
+
+#noBtn {
+  background-color: #f08080;
+  color: white;
+  position: relative;
+}
